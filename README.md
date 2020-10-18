@@ -1,3 +1,46 @@
+React --> Reacts to state changes  
+Creates re-usable components  
+React app is a tree of components  
+Each component is a piece of UI and is independent  
+
+Implementation,  
+As a ES6 JS class
+
+`class Tweet {
+    state = {};  //Data to be displayed when the component is rendered
+    render() {   //Responsible to what the UI should look like. Output is a react element
+    }
+}`
+
+
+Virtual DOM------------Real DOM  
+React Element---------DOM Element
+
+React will update the DOM. When the react element is updated it will handle updating the Real DOM.
+
+
+Angular is a framework  
+React is a view library
+
+Setup
+`npm i -g create-react-app`
+
+`create-react-app react-hello-world`  
+Installs; 
+Development server  
+Webpack to bundle files  
+Babel Compile JS code  https://babeljs.io/
+
+render() {
+    JSX --> JavaScript XML
+}
+
+Babel will convert JSX to JavaScript
+
+index.js --> entry point
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
